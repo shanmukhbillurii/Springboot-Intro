@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class helloworld {
     @GetMapping("/")
     public String hello() {
-        return "hello world";
+        return "Springboot is Working! ";
     }
     }
